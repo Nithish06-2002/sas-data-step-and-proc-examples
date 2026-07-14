@@ -1,0 +1,20 @@
+Partial Laboratory Data Review
+
+  Obs  USUBJID  TEST  RESULT
+    1  SUB001   HB      13.2
+    2  SUB001   ALT       35
+    3  SUB002   HB      12.1
+    4  SUB002   ALT       55
+
+... 2 more observations (showing 4 of 6)
+
+Laboratory Results with Abnormal Flag
+
+USUBJID  TEST  RESULT    FLAG
+SUB001   HB      13.2  NORMAL
+SUB001   ALT       35  NORMAL
+SUB002   HB      12.1  NORMAL
+SUB002   ALT       55  HIGH
+SUB003   HB        14  NORMAL
+SUB004   ALT       60  HIGH
+

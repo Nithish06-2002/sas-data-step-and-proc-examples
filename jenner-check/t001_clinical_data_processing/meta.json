@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_clinical_data_processing",
+  "source_file": "clinical_data_processing.sas",
+  "source_blob_sha": "ce0f5aa3294f9cbd13970fa30f04079293dcb070",
+  "source_commit": "574492c973de40e0b510e676b32a755da65dc2eb",
+  "notes": "Full clinical DM/LB teaching script run unmodified: inline CARDS build DM (4) and LB (6); SET/KEEP/DROP/RENAME variants; WHERE on ALT>50; FIRSTOBS/OBS PROC PRINT; PROC SORT + MERGE BY USUBJID (plain and IN= inner join); derived FLAG; final PROC PRINT. No external data or paths; only autoexec obs=100 added. 10 datasets, both listings correct, deterministic across two POSTs."
+}
